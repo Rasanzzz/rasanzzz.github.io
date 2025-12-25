@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import SystemStatus from './SystemStatus';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +31,14 @@ const Navbar = () => {
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/80 backdrop-blur-md border-b border-slate-800 py-4' : 'bg-transparent py-6'}`}
             >
                 <div className="container mx-auto px-6 flex justify-between items-center">
-                    <a href="#" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                        RS.
-                    </a>
+                    <div className="flex items-center gap-6">
+                        <a href="#" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+                            RS.
+                        </a>
+                        <div className="hidden md:block">
+                            <SystemStatus />
+                        </div>
+                    </div>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center gap-8">

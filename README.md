@@ -1,16 +1,64 @@
-# React + Vite
+# ⚡ Rasan Singh | Automation Test Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Playwright](https://img.shields.io/badge/-Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white) 
+![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black) 
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) 
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+> *"I don't just find bugs; I engineer their extinction."*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A high-performance, engineer-focused portfolio built with **React** and **Vite**, showcasing advanced automation frameworks, Agentic AI integrations, and end-to-end testing strategies.
 
-## React Compiler
+## 🚀 Live Demo
+**[rasanzzz.github.io](https://rasanzzz.github.io/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Terminal-Style Hero**: A `type-animation` intro simulating a test agent initialization.
+- **System Status Module**: Real-time "Systems Online" indicator for a dashboard aesthetic.
+- **QA Metrics Integration**: Projects highlight key engineering KPIs (e.g., *99.9% Reliability*, *Flake-free Suites*).
+- **Responsive & Accessible**: Fully optimized for all devices and screen readers.
+- **Automated Deployment**: CI/CD pipeline integrated via GitHub Actions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Category | Technology | Usage |
+| :--- | :--- | :--- |
+| **Frontend** | React, Vite | Core application framework |
+| **Styling** | Tailwind CSS v4 | Utility-first styling & animations |
+| **Motion** | Framer Motion | Smooth scroll & entry animations |
+| **Icons** | Lucide React | Clean, scalable SVG icons |
+| **Deployment** | GitHub Pages | Automated hosting workflow |
+
+## 💻 Local Development
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/rasanzzz/rasanzzz.github.io.git
+    cd rasanzzz.github.io
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run Dev Server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for Production**:
+    ```bash
+    npm run build
+    ```
+
+## 🧪 Deployment
+
+This repository uses a custom **GitHub Actions** workflow for deployment.
+- **Source**: `.github/workflows/deploy.yml`
+- **Trigger**: Push to `main` branch
+- **Target**: GitHub Pages environment
+
+---
+*© 2025 Rasan Singh. Built for Quality.*

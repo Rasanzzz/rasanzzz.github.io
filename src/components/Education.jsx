@@ -7,7 +7,7 @@ const Education = () => {
     const { education, certifications } = portfolioData;
 
     return (
-        <section id="education" className="py-20 bg-slate-900">
+        <section id="education" className="py-16 bg-slate-900">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

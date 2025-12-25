@@ -39,6 +39,7 @@ export const portfolioData = {
         { name: "AI Agentic Workflows", icon: Zap, category: "AI" },
         { name: "LLM Integration", icon: Zap, category: "AI" },
         { name: "n8n Automation", icon: Zap, category: "AI" },
+        { name: "AI DeepEval", icon: Zap, category: "AI" },
 
         // Professional / Methods
         { name: "Agile & Scrum", icon: Workflow, category: "Professional" },
@@ -101,19 +102,22 @@ export const portfolioData = {
             title: "Smart Parking Infrastructure",
             description: "An end-to-end IoT automation suite that simulates and validates real-world parking scenarios, from gate triggers to payment processing.",
             tech: ["Playwright", "IoT", "AWS", "API Testing", "CI/CD"],
-            link: "https://www.inugo.com/"
+            link: "https://www.inugo.com/",
+            qaMetrics: ["99.9% Business Critical Reliability", "IoT Hardware-Software Validation", "Automated Edge-Cases"]
         },
         {
             title: "Council-led Community Service Portal",
             description: "A high-performance, accessible web dashboard allowing citizens to track requests and services in real-time.",
             tech: ["React", "Node.js", "Tailwind CSS", "AWS", "GitHub Actions"],
-            link: "https://buzzly.nz/"
+            link: "https://buzzly.nz/",
+            qaMetrics: ["80% Faster Release Cycle", "Automated CI/CD pipeline", "Accessibility Compliance"]
         },
         {
             title: "EdTech Learning System",
             description: "Automated testing framework ensuring seamless course delivery and student assessments across multiple devices.",
             tech: ["C#", "Selenium", "NUnit"],
-            link: "https://www.skillshare.com/"
+            link: "https://www.skillshare.com/",
+            qaMetrics: ["X-Browser Compatibility", "Data-Driven Test Suite", "Scalable Automation"]
         }
     ]
-};
+}

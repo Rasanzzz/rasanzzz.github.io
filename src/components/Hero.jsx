@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, ChevronDown, Download } from 'lucide-react';
+import { TypeAnimation } from 'react-type-animation';
 import { portfolioData } from '../data/portfolio';
 import ProtectedLink from './ProtectedLink';
 
@@ -25,8 +26,22 @@ const Hero = () => {
                             <span className="text-primary font-mono tracking-widest uppercase text-sm">Open to Senior QA & Automation Roles</span>
                         </div>
 
-                        <h2 className="text-xl md:text-2xl text-slate-300 font-medium mb-4">
-                            Hello, I'm <span className="text-white font-bold">{name}</span>
+                        <h2 className="text-xl md:text-2xl text-slate-300 font-medium mb-4 font-mono">
+                            <span className="text-emerald-500 mr-2">➜</span>
+                            <TypeAnimation
+                                sequence={[
+                                    'Initializing Agent...',
+                                    1000,
+                                    'Loading Playwright Modules...',
+                                    1000,
+                                    'Running Test Suite...',
+                                    1000,
+                                    `Hello, I'm ${name}`,
+                                ]}
+                                wrapper="span"
+                                speed={50}
+                                cursor={true}
+                            />
                         </h2>
 
                         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 text-white leading-[1.1]">
