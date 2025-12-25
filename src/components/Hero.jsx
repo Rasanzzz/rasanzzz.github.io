@@ -23,14 +23,14 @@ const Hero = () => {
                     >
                         <div className="flex items-center gap-4 mb-6">
                             <span className="h-[1px] w-12 bg-primary"></span>
-                            <span className="text-primary font-mono tracking-widest uppercase text-sm">Open to Senior QA & Automation Roles</span>
+                            <span className="text-primary font-mono tracking-widest uppercase text-sm">Open to  QA & Automation Roles</span>
                         </div>
 
                         <h2 className="text-xl md:text-2xl text-slate-300 font-medium mb-4 font-mono">
                             <span className="text-emerald-500 mr-2">➜</span>
                             <TypeAnimation
                                 sequence={[
-                                    'Initializing Agent...',
+                                    'Initializing build...',
                                     1000,
                                     'Loading Playwright Modules...',
                                     1000,
