@@ -57,7 +57,7 @@ export const portfolioData = {
         {
             degree: "Diploma In Business",
             school: "Tasman International Academies",
-            year: "2021",
+            year: "2017",
             description: "Foundation in business management, operations, and strategic planning."
         }
     ],
