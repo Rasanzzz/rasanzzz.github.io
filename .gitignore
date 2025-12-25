@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 
-# Production
+# Productionrtfolio
 build
 dist
 dist-ssr
