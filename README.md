@@ -5,9 +5,6 @@
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) 
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-> *"I don't just find bugs; I engineer their extinction."*
-
-A high-performance, engineer-focused portfolio built with **React** and **Vite**, showcasing advanced automation frameworks, Agentic AI integrations, and end-to-end testing strategies.
 
 ## 🚀 Live Demo
 **[rasanzzz.github.io](https://rasanzzz.github.io/)**
@@ -16,7 +13,6 @@ A high-performance, engineer-focused portfolio built with **React** and **Vite**
 
 - **Terminal-Style Hero**: A `type-animation` intro simulating a test agent initialization.
 - **System Status Module**: Real-time "Systems Online" indicator for a dashboard aesthetic.
-- **QA Metrics Integration**: Projects highlight key engineering KPIs (e.g., *99.9% Reliability*, *Flake-free Suites*).
 - **Responsive & Accessible**: Fully optimized for all devices and screen readers.
 - **Automated Deployment**: CI/CD pipeline integrated via GitHub Actions.
 
