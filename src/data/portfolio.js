@@ -86,7 +86,7 @@ export const portfolioData = {
             role: "Web Developer",
             company: "Auckland Council",
             period: "Jan 2024 - May 2024",
-            description: "Leveraged full-stack expertise to build responsive web apps, giving me deep insight into code testability. Spearheaded the integration of automated CI/CD pipelines (GitHub Actions), directly reducing release cycle latency by 40% and cutting manual regression costs.",
+            description: "Leveraged full-stack expertise to build responsive web apps, giving me deep insight into code testability. Spearheaded the integration of automated CI/CD pipelines (GitHub Actions), directly reducing release cycle latency by 80% and cutting manual regression costs.",
             technologies: ["JavaScript", "Node.js", "React", "Tailwind CSS", "AWS", "GitHub Actions"]
         },
         {
